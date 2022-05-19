@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #fff;
+    color: black;
+    padding: 2vh;
+    z-index: 1;
+    
+}
+
+li {
+    display: inline;
+    padding-left: 30px;
+    color: black;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+#nav:hover {
+    background: rgb(184, 248, 213);
+}
+
+#nav:link {
+    text-decoration: none;
+    background: rgb(0, 255, 191);
+    color: black;
+    padding: 12px 17px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+#r-1:link {
+    display: inline;
+    position: absolute;
+    right: 35vh;
+    text-decoration: none;
+    background: rgb(158, 180, 241);
+    color: rgb(0, 0, 0);
+    padding: 12px 17px;
+    border-radius: 4px;
+}
+
+#r-1:hover {
+    background: rgb(181, 198, 245);
+}
+
+#r-2:link {
+    display: inline-block;
+    position: absolute;
+    right: 10vh;
+    text-decoration: none;
+    background: rgb(0, 255, 191);
+    color: black;
+    padding: 12px 17px;
+    border-radius: 4px;
+}
+
+#r-2:hover {
+    background: rgb(128, 250, 220);
+}
+
+.progressbar {
+    background: rgb(141, 178, 233);
+    height: 2px;
+    width: auto;
+    overflow: hidden;
+    animation: progress 3s ease-in-out normal;
+}
+
+@keyframes progress {
+    0% {
+        width: 0vw;
+    }
+
+    50% {
+        width: 40vw;
+    }
+
+    100% {
+        width: auto;
+    }
+}

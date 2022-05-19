@@ -1,0 +1,70 @@
+@media screen and (max-width: 1200px) {
+
+
+    #nav:link {
+        text-decoration: none;
+        font-size: 14px;
+        background: rgb(0, 255, 191);
+        color: black;
+        padding: 11px 9px;
+        margin-left: -16px;
+        margin-right: 12px;
+        border-radius: 4px;
+        ;
+    }
+
+    #para {
+        position: absolute;
+        left: 22vh;
+        bottom: 7vh;
+        width: 65%;
+    }
+
+    #para1 {
+        position: absolute;
+        right: 10vw;
+        top: 99vh;
+        width: 75%;
+    }
+
+    #logo {
+        display: none;
+        position: relative;
+        top: 37vh;
+        right: 0vw;
+        width: 70vh;
+    }
+
+    footer {
+        position: relative;
+        margin: auto;
+        top: 155vh;
+    }
+
+    footer .f1 {
+        padding: 10px 7px;
+        margin-right: 45px;
+        font-size: 15px;
+        border-radius: 7px;
+    }
+
+    footer .f2 {
+        padding: 10px 7px;
+        margin-right: 20px;
+        font-size: 15px;
+        border-radius: 7px;
+    }
+
+    footer li {
+        color: rgb(224, 224, 224);
+        font-size: 15px;
+        padding-left: 2px;
+    }
+
+    .spotify {
+        position: absolute;
+        bottom: -120vh;
+        margin: auto;
+        padding-left: 20vh;
+    }
+}
