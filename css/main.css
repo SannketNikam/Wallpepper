@@ -3,17 +3,34 @@
     justify-content: center;
     width: 100%;
     position: relative;
-    top: 40vh;
+    top: 30vh;
     /* margin: 50vh 50vh; */
     overflow: hidden;
     background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(10, 10, 10);
+    font-size: 10vh;
+    z-index: 1;
+}
+.bg-1{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 3vh;
+    position: relative;
+    top: 32vh;
+    z-index: 20;
+    color: black;
 }
 main{
     width: 100%;
-    min-height: 500px;
+    min-height: 600px;
     overflow: hidden;
     background-size:cover;
     background-image: url("https://source.unsplash.com/weekly?landscape/1600x100");
     z-index: 0;
     position: relative;
+    opacity: .8;
+    z-index: 10;
 }
