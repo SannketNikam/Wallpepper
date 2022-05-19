@@ -17,7 +17,7 @@
     justify-content: center;
     width: 100%;
     font-family: 'Hind Madurai', sans-serif;
-    font-size: 3vh;
+    font-size: 4vh;
     position: relative;
     top: 32vh;
     z-index: 20;
@@ -33,4 +33,25 @@ main{
     position: relative;
     opacity: .8;
     z-index: 10;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 33vh;
+    overflow: hidden;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(10, 10, 10);
+    font-size: 15px;
+    z-index: 1;
+}
+a:link{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    cursor: pointer ;
+    text-decoration: overline;
 }
