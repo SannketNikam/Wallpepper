@@ -70,7 +70,7 @@ main{
 }
 
 .flex-box{
-    background: url("/img/illustrations.jpg");
+    background: url("https://unsplash-assets.imgix.net/marketing/about-header-01.jpg");
     background-size: 25%;
     background-repeat: no-repeat;
     background-position: right;
