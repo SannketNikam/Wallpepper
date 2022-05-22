@@ -1,0 +1,25 @@
+body {
+    background-color: rgb(244, 255, 255);
+    overflow-x: hidden;
+}
+
+h1 {
+    padding: 10px 12px;
+    text-align: center;
+}
+
+.images-div {
+    display: inline-block;
+    width: 485px;
+    height: 300px;
+    padding: 5px;
+}
+
+img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 15px;
+}
