@@ -4,7 +4,7 @@
 }
 
 header {
-    background-color: #fff;
+    background-color: rgb(231, 248, 248);
     color: black;
     padding: 2vh;
     z-index: 1;
@@ -36,10 +36,11 @@ li {
     display: inline;
     position: absolute;
     right: 35vh;
+    top: 5px;
     text-decoration: none;
     background: rgb(158, 180, 241);
     color: rgb(0, 0, 0);
-    padding: 12px 17px;
+    padding: 11px 16px;
     border-radius: 4px;
 }
 
@@ -51,20 +52,21 @@ li {
     display: inline-block;
     position: absolute;
     right: 10vh;
+    top: 5px;
     text-decoration: none;
-    background: rgb(0, 255, 191);
+    background: rgb(158, 180, 241);
     color: black;
-    padding: 12px 17px;
+    padding: 11px 16px;
     border-radius: 4px;
 }
 
 #r-2:hover {
-    background: rgb(128, 250, 220);
+    background: rgb(181, 198, 245);
 }
 
 .progressbar {
-    background: rgb(141, 178, 233);
-    height: 2px;
+    background: rgb(129, 176, 247);
+    height: 3px;
     width: auto;
     overflow: hidden;
     animation: progress 3s ease-in-out normal;
