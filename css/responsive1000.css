@@ -1,70 +1,80 @@
-@media screen and (max-width: 1200px) {
-
+@media screen and (max-width: 1000px) {
 
     #nav:link {
         text-decoration: none;
-        font-size: 14px;
+        color: black;
+        font-size: 5vh;
+        font-weight: bolder;
+        font-family: 'Josefin Sans', sans-serif;
+        display: inline-block;
+    }
+    
+    #r-1:link {
+        display: inline;
+        position: absolute;
+        right: 35vh;
+        top: 5px;
+        text-decoration: none;
+        background: rgb(158, 180, 241);
+        color: rgb(0, 0, 0);
+        padding: 10px 15px;
+        border-radius: 4px;
+    }
+    
+    #r-1:hover {
+        background: rgb(181, 198, 245);
+    }
+    
+    #r-2:link {
+        display: inline-block;
+        position: absolute;
+        right: 10vh;
+        top: 5px;
+        text-decoration: none;
         background: rgb(0, 255, 191);
         color: black;
-        padding: 11px 9px;
-        margin-left: -16px;
-        margin-right: 12px;
+        padding: 10px 15px;
         border-radius: 4px;
-        ;
     }
-
-    #para {
-        position: absolute;
-        left: 22vh;
-        bottom: 7vh;
-        width: 65%;
+    
+    #r-2:hover {
+        background: rgb(128, 250, 220);
     }
-
-    #para1 {
-        position: absolute;
-        right: 10vw;
-        top: 99vh;
-        width: 75%;
-    }
-
-    #logo {
-        display: none;
-        position: relative;
-        top: 37vh;
-        right: 0vw;
-        width: 70vh;
-    }
-
-    footer {
-        position: relative;
-        margin: auto;
-        top: 155vh;
-    }
-
     footer .f1 {
-        padding: 10px 7px;
-        margin-right: 45px;
-        font-size: 15px;
-        border-radius: 7px;
-    }
-
-    footer .f2 {
-        padding: 10px 7px;
-        margin-right: 20px;
-        font-size: 15px;
-        border-radius: 7px;
-    }
-
-    footer li {
-        color: rgb(224, 224, 224);
-        font-size: 15px;
-        padding-left: 2px;
-    }
-
-    .spotify {
+        color: rgb(0, 0, 0);
+        font-family: 'Varela Round', sans-serif;
+        background: rgb(154, 240, 192);
+        border-radius: 5px;
+        padding: 10px 17px;
+        display: flex;
+        justify-content: right;
+        width: max-content;
         position: absolute;
-        bottom: -120vh;
-        margin: auto;
-        padding-left: 20vh;
+        top: 5vh;
+        left: 50vw;
+        display: flex;
+        flex-wrap: wrap;
     }
+    
+    footer .f1:hover {
+        background: rgb(200, 241, 219);
+    }
+    
+    footer .f2 {
+        font-family: 'Varela Round', sans-serif;
+        background: rgb(161, 247, 200);
+        color: black;
+        border-radius: 5px;
+        padding: 10px 11px;
+        display: flex;
+        justify-content: right;
+        width: max-content;
+        position: absolute;
+        top: 5vh;
+        left: 75vw;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    
 }

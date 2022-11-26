@@ -1,19 +1,94 @@
+body{
+    background-color: rgb(245, 253, 253);
+    overflow-x: hidden;
+}
 .bg{
     display: flex;
     justify-content: center;
     width: 100%;
     position: relative;
-    top: 40vh;
-    /* margin: 50vh 50vh; */
+    top: 30vh;
     overflow: hidden;
     background-size: cover;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(10, 10, 10);
+    font-size: 10vh;
+    z-index: 1;
 }
-main{
+.bg-1{
+    display: flex;
+    justify-content: center;
     width: 100%;
-    min-height: 500px;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 4vh;
+    position: relative;
+    top: 32vh;
+    z-index: 20;
+    color: black;
+}
+#main{
+    width: 100%;
+    min-height: 510px;
     overflow: hidden;
     background-size:cover;
     background-image: url("https://source.unsplash.com/weekly?landscape/1600x100");
-    z-index: 0;
     position: relative;
+    opacity: .8;
+    z-index: 10;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    top: 33vh;
+    overflow: hidden;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 300;
+    color: rgb(10, 10, 10);
+    font-size: 15px;
+    z-index: 1;
+}
+a{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+a:hover{
+    cursor: pointer ;
+    text-decoration: overline;
+}
+
+/* About.html css properties */
+
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    left: 10%;
+}
+
+.flex-box{
+    background: url("https://unsplash-assets.imgix.net/marketing/about-header-01.jpg");
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.p-1{
+    text-align: left;
+    width: 70%;
+    margin:  20vh 10vh;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 7vh;
+    margin-bottom: 5vh;
+}
+
+.p-2{
+    width: 70%;
+    margin-left: 10vh;
+    text-align: left;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 3.5vh;
 }

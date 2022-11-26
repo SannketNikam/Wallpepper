@@ -1,19 +1,18 @@
 footer {
     position: relative;
     margin-top: 0vh;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(215, 255, 255);
     color: rgb(0, 0, 0);
-    padding: 49px;
+    padding: 35px;
     font-family: 'Varela Round', sans-serif;
 }
 
 footer .f1 {
     color: rgb(0, 0, 0);
     font-family: 'Varela Round', sans-serif;
-    font-family: 'Varela Round', sans-serif;
     background: rgb(154, 240, 192);
     border-radius: 5px;
-    padding: 12px 17px;
+    padding: 10px 17px;
     display: flex;
     justify-content: right;
     width: max-content;
@@ -48,15 +47,6 @@ footer .f2:hover {
     background: rgb(177, 235, 203);
 }
 
-#share {
-    display: inline;
-    text-decoration: none;
-}
-
 footer li {
     color: rgb(132, 125, 228);
-}
-
-apps {
-    width: 30px;
 }
